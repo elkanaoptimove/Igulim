@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0498687760C6C8ADBA1B5526 /* Pods_Igulim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F699E37BFFD57C7F38433A17 /* Pods_Igulim.framework */; };
+		670EE2721FB8A012008B4315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EE2711FB8A012008B4315 /* AppDelegate.swift */; };
+		670EE27C1FB8A012008B4315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670EE27A1FB8A012008B4315 /* LaunchScreen.storyboard */; };
+		670EE2971FB8A038008B4315 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2841FB8A038008B4315 /* Roboto-Medium.ttf */; };
+		670EE2981FB8A038008B4315 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2851FB8A038008B4315 /* Roboto-Light.ttf */; };
+		670EE2991FB8A038008B4315 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2861FB8A038008B4315 /* RobotoCondensed-Bold.ttf */; };
+		670EE29A1FB8A038008B4315 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2871FB8A038008B4315 /* RobotoCondensed-Light.ttf */; };
+		670EE29B1FB8A038008B4315 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2881FB8A038008B4315 /* Roboto-Regular.ttf */; };
+		670EE29C1FB8A038008B4315 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2891FB8A038008B4315 /* Roboto-MediumItalic.ttf */; };
+		670EE29D1FB8A038008B4315 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE28A1FB8A038008B4315 /* RobotoCondensed-Italic.ttf */; };
+		670EE29E1FB8A038008B4315 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE28B1FB8A038008B4315 /* RobotoCondensed-BoldItalic.ttf */; };
+		670EE29F1FB8A038008B4315 /* Apache License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 670EE28C1FB8A038008B4315 /* Apache License.txt */; };
+		670EE2A01FB8A038008B4315 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE28D1FB8A038008B4315 /* RobotoCondensed-LightItalic.ttf */; };
+		670EE2A11FB8A038008B4315 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE28E1FB8A038008B4315 /* Roboto-ThinItalic.ttf */; };
+		670EE2A21FB8A038008B4315 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE28F1FB8A038008B4315 /* RobotoCondensed-Regular.ttf */; };
+		670EE2A31FB8A038008B4315 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2901FB8A038008B4315 /* Roboto-BoldItalic.ttf */; };
+		670EE2A41FB8A038008B4315 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2911FB8A038008B4315 /* Roboto-LightItalic.ttf */; };
+		670EE2A51FB8A038008B4315 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2921FB8A038008B4315 /* Roboto-Italic.ttf */; };
+		670EE2A61FB8A038008B4315 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2931FB8A038008B4315 /* Roboto-BlackItalic.ttf */; };
+		670EE2A71FB8A038008B4315 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2941FB8A038008B4315 /* Roboto-Bold.ttf */; };
+		670EE2A81FB8A038008B4315 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2951FB8A038008B4315 /* Roboto-Thin.ttf */; };
+		670EE2A91FB8A038008B4315 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2961FB8A038008B4315 /* Roboto-Black.ttf */; };
+		670EE2AB1FB8A04A008B4315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2AA1FB8A04A008B4315 /* Assets.xcassets */; };
+		670EE2AD1FB8A07E008B4315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670EE2AC1FB8A07E008B4315 /* Main.storyboard */; };
+		670EE2B01FB8A08B008B4315 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EE2AE1FB8A08B008B4315 /* IntroViewController.swift */; };
+		670EE2B11FB8A08B008B4315 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EE2AF1FB8A08B008B4315 /* MainViewController.swift */; };
+		676EC0061FD6BDE200D9EC9E /* OptiTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFD71FD6BDE100D9EC9E /* OptiTrack.swift */; };
+		676EC0071FD6BDE200D9EC9E /* OptitrackMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFD81FD6BDE100D9EC9E /* OptitrackMetaData.swift */; };
+		676EC0081FD6BDE200D9EC9E /* Synchronizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFDB1FD6BDE100D9EC9E /* Synchronizable.swift */; };
+		676EC0091FD6BDE200D9EC9E /* UserInSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFDC1FD6BDE100D9EC9E /* UserInSession.swift */; };
+		676EC00A1FD6BDE200D9EC9E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFDE1FD6BDE100D9EC9E /* Constants.swift */; };
+		676EC00B1FD6BDE200D9EC9E /* ComponentsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFDF1FD6BDE100D9EC9E /* ComponentsConstants.swift */; };
+		676EC00C1FD6BDE200D9EC9E /* OptimovePredefinedEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFE01FD6BDE100D9EC9E /* OptimovePredefinedEvents.swift */; };
+		676EC00D1FD6BDE200D9EC9E /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFE21FD6BDE100D9EC9E /* ConfigurationProvider.swift */; };
+		676EC00E1FD6BDE200D9EC9E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFE41FD6BDE100D9EC9E /* NetworkManager.swift */; };
+		676EC00F1FD6BDE200D9EC9E /* NetworkAPIPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFE51FD6BDE100D9EC9E /* NetworkAPIPaths.swift */; };
+		676EC0101FD6BDE200D9EC9E /* JSONComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFE71FD6BDE100D9EC9E /* JSONComposer.swift */; };
+		676EC0111FD6BDE200D9EC9E /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFE81FD6BDE100D9EC9E /* Parser.swift */; };
+		676EC0121FD6BDE200D9EC9E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFEA1FD6BDE100D9EC9E /* Extensions.swift */; };
+		676EC0131FD6BDE200D9EC9E /* CampaignDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFEC1FD6BDE100D9EC9E /* CampaignDetails.swift */; };
+		676EC0141FD6BDE200D9EC9E /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFEE1FD6BDE100D9EC9E /* LogManager.swift */; };
+		676EC0151FD6BDE200D9EC9E /* EventConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFF01FD6BDE100D9EC9E /* EventConfig.swift */; };
+		676EC0161FD6BDE200D9EC9E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFF11FD6BDE100D9EC9E /* Event.swift */; };
+		676EC0171FD6BDE200D9EC9E /* OptimoveComponentsInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFF41FD6BDE200D9EC9E /* OptimoveComponentsInitializer.swift */; };
+		676EC0181FD6BDE200D9EC9E /* Optimove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFF51FD6BDE200D9EC9E /* Optimove.swift */; };
+		676EC0191FD6BDE200D9EC9E /* OptimoveNotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFF71FD6BDE200D9EC9E /* OptimoveNotificationHandler.swift */; };
+		676EC01A1FD6BDE200D9EC9E /* EventValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFF81FD6BDE200D9EC9E /* EventValidator.swift */; };
+		676EC01B1FD6BDE200D9EC9E /* OptimoveTenantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFF91FD6BDE200D9EC9E /* OptimoveTenantInfo.swift */; };
+		676EC01C1FD6BDE200D9EC9E /* MonitorOptimoveState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFFB1FD6BDE200D9EC9E /* MonitorOptimoveState.swift */; };
+		676EC01D1FD6BDE200D9EC9E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFFC1FD6BDE200D9EC9E /* State.swift */; };
+		676EC01E1FD6BDE200D9EC9E /* OptipushMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFFE1FD6BDE200D9EC9E /* OptipushMetaData.swift */; };
+		676EC01F1FD6BDE200D9EC9E /* Optipush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EBFFF1FD6BDE200D9EC9E /* Optipush.swift */; };
+		676EC0201FD6BDE200D9EC9E /* DynamicLinkResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EC0011FD6BDE200D9EC9E /* DynamicLinkResponder.swift */; };
+		676EC0211FD6BDE200D9EC9E /* Registrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EC0021FD6BDE200D9EC9E /* Registrar.swift */; };
+		676EC0221FD6BDE200D9EC9E /* FirebaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EC0041FD6BDE200D9EC9E /* FirebaseInteractor.swift */; };
+		676EC0231FD6BDE200D9EC9E /* FirebaseMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EC0051FD6BDE200D9EC9E /* FirebaseMetaData.swift */; };
+		67E005A01FBDC39600F0B357 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67E005841FBDC39600F0B357 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		118BEDB2B70765DA69A40A2D /* Pods-Igulim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Igulim.release.xcconfig"; path = "Pods/Target Support Files/Pods-Igulim/Pods-Igulim.release.xcconfig"; sourceTree = "<group>"; };
+		670EE26E1FB8A012008B4315 /* Igulim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Igulim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		670EE2711FB8A012008B4315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		670EE27B1FB8A012008B4315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		670EE27D1FB8A012008B4315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670EE2841FB8A038008B4315 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		670EE2851FB8A038008B4315 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		670EE2861FB8A038008B4315 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		670EE2871FB8A038008B4315 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		670EE2881FB8A038008B4315 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		670EE2891FB8A038008B4315 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		670EE28A1FB8A038008B4315 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		670EE28B1FB8A038008B4315 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		670EE28C1FB8A038008B4315 /* Apache License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Apache License.txt"; sourceTree = "<group>"; };
+		670EE28D1FB8A038008B4315 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		670EE28E1FB8A038008B4315 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		670EE28F1FB8A038008B4315 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		670EE2901FB8A038008B4315 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		670EE2911FB8A038008B4315 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		670EE2921FB8A038008B4315 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		670EE2931FB8A038008B4315 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		670EE2941FB8A038008B4315 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		670EE2951FB8A038008B4315 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		670EE2961FB8A038008B4315 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		670EE2AA1FB8A04A008B4315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		670EE2AC1FB8A07E008B4315 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		670EE2AE1FB8A08B008B4315 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		670EE2AF1FB8A08B008B4315 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		670EE3871FBB23C0008B4315 /* Igulim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Igulim.entitlements; sourceTree = "<group>"; };
+		676EBFD71FD6BDE100D9EC9E /* OptiTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptiTrack.swift; sourceTree = "<group>"; };
+		676EBFD81FD6BDE100D9EC9E /* OptitrackMetaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptitrackMetaData.swift; sourceTree = "<group>"; };
+		676EBFDB1FD6BDE100D9EC9E /* Synchronizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Synchronizable.swift; sourceTree = "<group>"; };
+		676EBFDC1FD6BDE100D9EC9E /* UserInSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInSession.swift; sourceTree = "<group>"; };
+		676EBFDE1FD6BDE100D9EC9E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		676EBFDF1FD6BDE100D9EC9E /* ComponentsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentsConstants.swift; sourceTree = "<group>"; };
+		676EBFE01FD6BDE100D9EC9E /* OptimovePredefinedEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimovePredefinedEvents.swift; sourceTree = "<group>"; };
+		676EBFE21FD6BDE100D9EC9E /* ConfigurationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProvider.swift; sourceTree = "<group>"; };
+		676EBFE41FD6BDE100D9EC9E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		676EBFE51FD6BDE100D9EC9E /* NetworkAPIPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAPIPaths.swift; sourceTree = "<group>"; };
+		676EBFE71FD6BDE100D9EC9E /* JSONComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONComposer.swift; sourceTree = "<group>"; };
+		676EBFE81FD6BDE100D9EC9E /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		676EBFEA1FD6BDE100D9EC9E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		676EBFEC1FD6BDE100D9EC9E /* CampaignDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampaignDetails.swift; sourceTree = "<group>"; };
+		676EBFEE1FD6BDE100D9EC9E /* LogManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		676EBFF01FD6BDE100D9EC9E /* EventConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventConfig.swift; sourceTree = "<group>"; };
+		676EBFF11FD6BDE100D9EC9E /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		676EBFF41FD6BDE200D9EC9E /* OptimoveComponentsInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimoveComponentsInitializer.swift; sourceTree = "<group>"; };
+		676EBFF51FD6BDE200D9EC9E /* Optimove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optimove.swift; sourceTree = "<group>"; };
+		676EBFF71FD6BDE200D9EC9E /* OptimoveNotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimoveNotificationHandler.swift; sourceTree = "<group>"; };
+		676EBFF81FD6BDE200D9EC9E /* EventValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventValidator.swift; sourceTree = "<group>"; };
+		676EBFF91FD6BDE200D9EC9E /* OptimoveTenantInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimoveTenantInfo.swift; sourceTree = "<group>"; };
+		676EBFFB1FD6BDE200D9EC9E /* MonitorOptimoveState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorOptimoveState.swift; sourceTree = "<group>"; };
+		676EBFFC1FD6BDE200D9EC9E /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		676EBFFE1FD6BDE200D9EC9E /* OptipushMetaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptipushMetaData.swift; sourceTree = "<group>"; };
+		676EBFFF1FD6BDE200D9EC9E /* Optipush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optipush.swift; sourceTree = "<group>"; };
+		676EC0011FD6BDE200D9EC9E /* DynamicLinkResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicLinkResponder.swift; sourceTree = "<group>"; };
+		676EC0021FD6BDE200D9EC9E /* Registrar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registrar.swift; sourceTree = "<group>"; };
+		676EC0041FD6BDE200D9EC9E /* FirebaseInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseInteractor.swift; sourceTree = "<group>"; };
+		676EC0051FD6BDE200D9EC9E /* FirebaseMetaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseMetaData.swift; sourceTree = "<group>"; };
+		67E0056C1FBDC39600F0B357 /* OptimoveSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimoveSDK.h; sourceTree = "<group>"; };
+		67E005841FBDC39600F0B357 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C347DC4F086095536E88999 /* Pods-Igulim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Igulim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Igulim/Pods-Igulim.debug.xcconfig"; sourceTree = "<group>"; };
+		F699E37BFFD57C7F38433A17 /* Pods_Igulim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Igulim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		670EE26B1FB8A012008B4315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498687760C6C8ADBA1B5526 /* Pods_Igulim.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A9C4A26EFA6FB6BA3F07721 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C347DC4F086095536E88999 /* Pods-Igulim.debug.xcconfig */,
+				118BEDB2B70765DA69A40A2D /* Pods-Igulim.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		29F1BEA024B417458EEE910B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F699E37BFFD57C7F38433A17 /* Pods_Igulim.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		670EE2651FB8A011008B4315 = {
+			isa = PBXGroup;
+			children = (
+				670EE2701FB8A012008B4315 /* Igulim */,
+				670EE26F1FB8A012008B4315 /* Products */,
+				1A9C4A26EFA6FB6BA3F07721 /* Pods */,
+				29F1BEA024B417458EEE910B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		670EE26F1FB8A012008B4315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				670EE26E1FB8A012008B4315 /* Igulim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		670EE2701FB8A012008B4315 /* Igulim */ = {
+			isa = PBXGroup;
+			children = (
+				670EE3871FBB23C0008B4315 /* Igulim.entitlements */,
+				670EE2711FB8A012008B4315 /* AppDelegate.swift */,
+				670EE2AC1FB8A07E008B4315 /* Main.storyboard */,
+				670EE2AA1FB8A04A008B4315 /* Assets.xcassets */,
+				670EE27A1FB8A012008B4315 /* LaunchScreen.storyboard */,
+				670EE2AF1FB8A08B008B4315 /* MainViewController.swift */,
+				670EE2AE1FB8A08B008B4315 /* IntroViewController.swift */,
+				670EE27D1FB8A012008B4315 /* Info.plist */,
+				67E005671FBDC39600F0B357 /* OptimoveSDK */,
+				670EE2831FB8A038008B4315 /* roboto */,
+			);
+			path = Igulim;
+			sourceTree = "<group>";
+		};
+		670EE2831FB8A038008B4315 /* roboto */ = {
+			isa = PBXGroup;
+			children = (
+				670EE2841FB8A038008B4315 /* Roboto-Medium.ttf */,
+				670EE2851FB8A038008B4315 /* Roboto-Light.ttf */,
+				670EE2861FB8A038008B4315 /* RobotoCondensed-Bold.ttf */,
+				670EE2871FB8A038008B4315 /* RobotoCondensed-Light.ttf */,
+				670EE2881FB8A038008B4315 /* Roboto-Regular.ttf */,
+				670EE2891FB8A038008B4315 /* Roboto-MediumItalic.ttf */,
+				670EE28A1FB8A038008B4315 /* RobotoCondensed-Italic.ttf */,
+				670EE28B1FB8A038008B4315 /* RobotoCondensed-BoldItalic.ttf */,
+				670EE28C1FB8A038008B4315 /* Apache License.txt */,
+				670EE28D1FB8A038008B4315 /* RobotoCondensed-LightItalic.ttf */,
+				670EE28E1FB8A038008B4315 /* Roboto-ThinItalic.ttf */,
+				670EE28F1FB8A038008B4315 /* RobotoCondensed-Regular.ttf */,
+				670EE2901FB8A038008B4315 /* Roboto-BoldItalic.ttf */,
+				670EE2911FB8A038008B4315 /* Roboto-LightItalic.ttf */,
+				670EE2921FB8A038008B4315 /* Roboto-Italic.ttf */,
+				670EE2931FB8A038008B4315 /* Roboto-BlackItalic.ttf */,
+				670EE2941FB8A038008B4315 /* Roboto-Bold.ttf */,
+				670EE2951FB8A038008B4315 /* Roboto-Thin.ttf */,
+				670EE2961FB8A038008B4315 /* Roboto-Black.ttf */,
+			);
+			path = roboto;
+			sourceTree = "<group>";
+		};
+		676EBFD61FD6BDE100D9EC9E /* OptiTrack */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFD71FD6BDE100D9EC9E /* OptiTrack.swift */,
+				676EBFD81FD6BDE100D9EC9E /* OptitrackMetaData.swift */,
+			);
+			path = OptiTrack;
+			sourceTree = "<group>";
+		};
+		676EBFD91FD6BDE100D9EC9E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFDA1FD6BDE100D9EC9E /* Singletons */,
+				676EBFDD1FD6BDE100D9EC9E /* Comstants */,
+				676EBFE11FD6BDE100D9EC9E /* Providers */,
+				676EBFE31FD6BDE100D9EC9E /* Network */,
+				676EBFE61FD6BDE100D9EC9E /* Parser */,
+				676EBFE91FD6BDE100D9EC9E /* Extensions */,
+				676EBFEB1FD6BDE100D9EC9E /* Campaign */,
+				676EBFED1FD6BDE100D9EC9E /* Log */,
+				676EBFEF1FD6BDE100D9EC9E /* Event */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		676EBFDA1FD6BDE100D9EC9E /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFDB1FD6BDE100D9EC9E /* Synchronizable.swift */,
+				676EBFDC1FD6BDE100D9EC9E /* UserInSession.swift */,
+			);
+			path = Singletons;
+			sourceTree = "<group>";
+		};
+		676EBFDD1FD6BDE100D9EC9E /* Comstants */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFDE1FD6BDE100D9EC9E /* Constants.swift */,
+				676EBFDF1FD6BDE100D9EC9E /* ComponentsConstants.swift */,
+				676EBFE01FD6BDE100D9EC9E /* OptimovePredefinedEvents.swift */,
+			);
+			path = Comstants;
+			sourceTree = "<group>";
+		};
+		676EBFE11FD6BDE100D9EC9E /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFE21FD6BDE100D9EC9E /* ConfigurationProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		676EBFE31FD6BDE100D9EC9E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFE41FD6BDE100D9EC9E /* NetworkManager.swift */,
+				676EBFE51FD6BDE100D9EC9E /* NetworkAPIPaths.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		676EBFE61FD6BDE100D9EC9E /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFE71FD6BDE100D9EC9E /* JSONComposer.swift */,
+				676EBFE81FD6BDE100D9EC9E /* Parser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		676EBFE91FD6BDE100D9EC9E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFEA1FD6BDE100D9EC9E /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		676EBFEB1FD6BDE100D9EC9E /* Campaign */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFEC1FD6BDE100D9EC9E /* CampaignDetails.swift */,
+			);
+			path = Campaign;
+			sourceTree = "<group>";
+		};
+		676EBFED1FD6BDE100D9EC9E /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFEE1FD6BDE100D9EC9E /* LogManager.swift */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		676EBFEF1FD6BDE100D9EC9E /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFF01FD6BDE100D9EC9E /* EventConfig.swift */,
+				676EBFF11FD6BDE100D9EC9E /* Event.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		676EBFF21FD6BDE200D9EC9E /* Optimove */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFF31FD6BDE200D9EC9E /* Initializer */,
+				676EBFF51FD6BDE200D9EC9E /* Optimove.swift */,
+				676EBFF61FD6BDE200D9EC9E /* NotificationResponder */,
+				676EBFF81FD6BDE200D9EC9E /* EventValidator.swift */,
+				676EBFF91FD6BDE200D9EC9E /* OptimoveTenantInfo.swift */,
+				676EBFFA1FD6BDE200D9EC9E /* StateMonitor */,
+			);
+			path = Optimove;
+			sourceTree = "<group>";
+		};
+		676EBFF31FD6BDE200D9EC9E /* Initializer */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFF41FD6BDE200D9EC9E /* OptimoveComponentsInitializer.swift */,
+			);
+			path = Initializer;
+			sourceTree = "<group>";
+		};
+		676EBFF61FD6BDE200D9EC9E /* NotificationResponder */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFF71FD6BDE200D9EC9E /* OptimoveNotificationHandler.swift */,
+			);
+			path = NotificationResponder;
+			sourceTree = "<group>";
+		};
+		676EBFFA1FD6BDE200D9EC9E /* StateMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFFB1FD6BDE200D9EC9E /* MonitorOptimoveState.swift */,
+				676EBFFC1FD6BDE200D9EC9E /* State.swift */,
+			);
+			path = StateMonitor;
+			sourceTree = "<group>";
+		};
+		676EBFFD1FD6BDE200D9EC9E /* OptiPush */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFFE1FD6BDE200D9EC9E /* OptipushMetaData.swift */,
+				676EBFFF1FD6BDE200D9EC9E /* Optipush.swift */,
+				676EC0001FD6BDE200D9EC9E /* DynamicLink */,
+				676EC0021FD6BDE200D9EC9E /* Registrar.swift */,
+				676EC0031FD6BDE200D9EC9E /* Firebase */,
+			);
+			path = OptiPush;
+			sourceTree = "<group>";
+		};
+		676EC0001FD6BDE200D9EC9E /* DynamicLink */ = {
+			isa = PBXGroup;
+			children = (
+				676EC0011FD6BDE200D9EC9E /* DynamicLinkResponder.swift */,
+			);
+			path = DynamicLink;
+			sourceTree = "<group>";
+		};
+		676EC0031FD6BDE200D9EC9E /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				676EC0041FD6BDE200D9EC9E /* FirebaseInteractor.swift */,
+				676EC0051FD6BDE200D9EC9E /* FirebaseMetaData.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		67E005671FBDC39600F0B357 /* OptimoveSDK */ = {
+			isa = PBXGroup;
+			children = (
+				676EBFD91FD6BDE100D9EC9E /* Common */,
+				676EBFF21FD6BDE200D9EC9E /* Optimove */,
+				676EBFFD1FD6BDE200D9EC9E /* OptiPush */,
+				676EBFD61FD6BDE100D9EC9E /* OptiTrack */,
+				67E0056C1FBDC39600F0B357 /* OptimoveSDK.h */,
+				67E005841FBDC39600F0B357 /* Info.plist */,
+			);
+			path = OptimoveSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		670EE26D1FB8A012008B4315 /* Igulim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670EE2801FB8A012008B4315 /* Build configuration list for PBXNativeTarget "Igulim" */;
+			buildPhases = (
+				F6B9901032E6AD40DC13B595 /* [CP] Check Pods Manifest.lock */,
+				670EE26A1FB8A012008B4315 /* Sources */,
+				670EE26B1FB8A012008B4315 /* Frameworks */,
+				670EE26C1FB8A012008B4315 /* Resources */,
+				D47973A5F87D9D2057E8AD1C /* [CP] Embed Pods Frameworks */,
+				F01F8BA3B80BBA8A8B34E4DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Igulim;
+			productName = Igulim;
+			productReference = 670EE26E1FB8A012008B4315 /* Igulim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		670EE2661FB8A011008B4315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Optimove;
+				TargetAttributes = {
+					670EE26D1FB8A012008B4315 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 670EE2691FB8A011008B4315 /* Build configuration list for PBXProject "Igulim" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 670EE2651FB8A011008B4315;
+			productRefGroup = 670EE26F1FB8A012008B4315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				670EE26D1FB8A012008B4315 /* Igulim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		670EE26C1FB8A012008B4315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670EE2991FB8A038008B4315 /* RobotoCondensed-Bold.ttf in Resources */,
+				670EE2A51FB8A038008B4315 /* Roboto-Italic.ttf in Resources */,
+				670EE2AB1FB8A04A008B4315 /* Assets.xcassets in Resources */,
+				670EE2A71FB8A038008B4315 /* Roboto-Bold.ttf in Resources */,
+				670EE29F1FB8A038008B4315 /* Apache License.txt in Resources */,
+				670EE2AD1FB8A07E008B4315 /* Main.storyboard in Resources */,
+				670EE2971FB8A038008B4315 /* Roboto-Medium.ttf in Resources */,
+				670EE2A91FB8A038008B4315 /* Roboto-Black.ttf in Resources */,
+				670EE2A21FB8A038008B4315 /* RobotoCondensed-Regular.ttf in Resources */,
+				670EE29B1FB8A038008B4315 /* Roboto-Regular.ttf in Resources */,
+				67E005A01FBDC39600F0B357 /* Info.plist in Resources */,
+				670EE2A01FB8A038008B4315 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				670EE27C1FB8A012008B4315 /* LaunchScreen.storyboard in Resources */,
+				670EE2A61FB8A038008B4315 /* Roboto-BlackItalic.ttf in Resources */,
+				670EE2981FB8A038008B4315 /* Roboto-Light.ttf in Resources */,
+				670EE29A1FB8A038008B4315 /* RobotoCondensed-Light.ttf in Resources */,
+				670EE2A31FB8A038008B4315 /* Roboto-BoldItalic.ttf in Resources */,
+				670EE2A81FB8A038008B4315 /* Roboto-Thin.ttf in Resources */,
+				670EE2A41FB8A038008B4315 /* Roboto-LightItalic.ttf in Resources */,
+				670EE29E1FB8A038008B4315 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				670EE2A11FB8A038008B4315 /* Roboto-ThinItalic.ttf in Resources */,
+				670EE29C1FB8A038008B4315 /* Roboto-MediumItalic.ttf in Resources */,
+				670EE29D1FB8A038008B4315 /* RobotoCondensed-Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D47973A5F87D9D2057E8AD1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Igulim/Pods-Igulim-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/OptimovePiwikTracker/OptimovePiwikTracker.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OptimovePiwikTracker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Igulim/Pods-Igulim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F01F8BA3B80BBA8A8B34E4DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Igulim/Pods-Igulim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B9901032E6AD40DC13B595 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Igulim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		670EE26A1FB8A012008B4315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676EC0141FD6BDE200D9EC9E /* LogManager.swift in Sources */,
+				676EC01B1FD6BDE200D9EC9E /* OptimoveTenantInfo.swift in Sources */,
+				676EC0211FD6BDE200D9EC9E /* Registrar.swift in Sources */,
+				676EC00E1FD6BDE200D9EC9E /* NetworkManager.swift in Sources */,
+				676EC00D1FD6BDE200D9EC9E /* ConfigurationProvider.swift in Sources */,
+				676EC0111FD6BDE200D9EC9E /* Parser.swift in Sources */,
+				676EC01D1FD6BDE200D9EC9E /* State.swift in Sources */,
+				676EC0161FD6BDE200D9EC9E /* Event.swift in Sources */,
+				676EC00B1FD6BDE200D9EC9E /* ComponentsConstants.swift in Sources */,
+				676EC0151FD6BDE200D9EC9E /* EventConfig.swift in Sources */,
+				676EC0071FD6BDE200D9EC9E /* OptitrackMetaData.swift in Sources */,
+				676EC0181FD6BDE200D9EC9E /* Optimove.swift in Sources */,
+				676EC0091FD6BDE200D9EC9E /* UserInSession.swift in Sources */,
+				670EE2B11FB8A08B008B4315 /* MainViewController.swift in Sources */,
+				676EC0081FD6BDE200D9EC9E /* Synchronizable.swift in Sources */,
+				676EC0221FD6BDE200D9EC9E /* FirebaseInteractor.swift in Sources */,
+				676EC0191FD6BDE200D9EC9E /* OptimoveNotificationHandler.swift in Sources */,
+				670EE2721FB8A012008B4315 /* AppDelegate.swift in Sources */,
+				676EC0201FD6BDE200D9EC9E /* DynamicLinkResponder.swift in Sources */,
+				676EC0131FD6BDE200D9EC9E /* CampaignDetails.swift in Sources */,
+				676EC00F1FD6BDE200D9EC9E /* NetworkAPIPaths.swift in Sources */,
+				670EE2B01FB8A08B008B4315 /* IntroViewController.swift in Sources */,
+				676EC0121FD6BDE200D9EC9E /* Extensions.swift in Sources */,
+				676EC0061FD6BDE200D9EC9E /* OptiTrack.swift in Sources */,
+				676EC0101FD6BDE200D9EC9E /* JSONComposer.swift in Sources */,
+				676EC0171FD6BDE200D9EC9E /* OptimoveComponentsInitializer.swift in Sources */,
+				676EC00A1FD6BDE200D9EC9E /* Constants.swift in Sources */,
+				676EC01C1FD6BDE200D9EC9E /* MonitorOptimoveState.swift in Sources */,
+				676EC0231FD6BDE200D9EC9E /* FirebaseMetaData.swift in Sources */,
+				676EC00C1FD6BDE200D9EC9E /* OptimovePredefinedEvents.swift in Sources */,
+				676EC01E1FD6BDE200D9EC9E /* OptipushMetaData.swift in Sources */,
+				676EC01A1FD6BDE200D9EC9E /* EventValidator.swift in Sources */,
+				676EC01F1FD6BDE200D9EC9E /* Optipush.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		670EE27A1FB8A012008B4315 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670EE27B1FB8A012008B4315 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		670EE27E1FB8A012008B4315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		670EE27F1FB8A012008B4315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		670EE2811FB8A012008B4315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C347DC4F086095536E88999 /* Pods-Igulim.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Igulim/Igulim.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDTF4M4FTC;
+				INFOPLIST_FILE = Igulim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.optimove.Igulimm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		670EE2821FB8A012008B4315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118BEDB2B70765DA69A40A2D /* Pods-Igulim.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Igulim/Igulim.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDTF4M4FTC;
+				INFOPLIST_FILE = Igulim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.optimove.Igulimm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		670EE2691FB8A011008B4315 /* Build configuration list for PBXProject "Igulim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670EE27E1FB8A012008B4315 /* Debug */,
+				670EE27F1FB8A012008B4315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670EE2801FB8A012008B4315 /* Build configuration list for PBXNativeTarget "Igulim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670EE2811FB8A012008B4315 /* Debug */,
+				670EE2821FB8A012008B4315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 670EE2661FB8A011008B4315 /* Project object */;
+}
